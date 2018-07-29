@@ -1,0 +1,139 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 8 Jan, 2017, 2:05:41 PM
+    Author     : hp
+*/
+
+* { box-sizing: border-box; }
+body { background-image: url('images/bg7.png');
+       background-size: 100% 340%;
+       padding: 0px;
+       margin: 0px;
+    }
+.flash { float: left;
+        margin-top: 1%;
+       }
+.header { width: 100%;
+         height: 20%;
+         border: 0px solid black;
+         padding-left: 4%;
+        }
+.head_tag { font-family: fantasy;
+           border: 0px solid red;
+           color: /*#ff3302*/white;
+           padding-left: 10%;
+           margin-top: 3%;
+           text-shadow: 10px 10px 10px #141414;
+           font-size: 4em;
+           float: left;
+           width: 45%;
+         }
+.header > form {
+             margin-left: 65%;
+            }
+.header > form > input { border-radius: 3px;
+                        border: 1px solid green;
+                        margin-top: 1.5%;
+                        box-shadow: 0px 5px 5px lightgreen;
+                        font-family: andalus;
+                        color: green;
+                        font-size: 1em;
+                        padding: 3px;
+                        transition: 2s;
+                    }
+.access { margin-left: 1%;
+         height: 30px;
+         padding: 0px;
+         text-align:center;
+         font-size: 1.6em;
+         width: 150px;
+         margin-top: -2%;
+         float: left;
+         border: 0px solid red;
+         color: whitesmoke;
+         text-shadow: 5px 5px 5px black;
+         cursor: Pointer;
+        }
+.note { margin-top: 9%;
+       text-align: justify;
+       height: 43%;
+       background-color: transparent;
+       color: white;
+       opacity: 1;
+       font-family: Calibri;
+       width: 28%;
+       position: absolute;
+       margin-left: 31.8%;
+       padding: 15px;
+       font-size: 1.3em;
+       text-shadow: 4px 4px 5px black;
+       word-spacing: 5px;
+        }
+.footer { background-image: url('images/frontbanner.png');
+         border: 0px solid red;
+         position: absolute;
+         width: 100%;
+         height: 35.3%;
+         margin-top: 28.24%;
+        }
+.read_more { text-decoration: none;
+            transition: 3s;
+            margin-left: 25%;
+            margin-top: 5%; 
+            text-align: center;
+            color: lightskyblue;
+            font-family: Andalus;
+            font-size: 1.5em;
+            cursor: pointer;
+        }
+.read_more:hover { transform: scale(1.2,1.2);
+        color: red;
+        font-size: 1.8em;
+        }
+
+.LogIn {  height:35%; 
+         width: 30%;
+         margin: 0 auto; 
+         margin-top: 100px; 
+         box-shadow: inset 0px 0px 70px white; 
+         border: 2px solid white; 
+         border-radius: 10px;
+        }
+.LogForm > input{ font-size:1.2em; 
+                 font-family: andalus; 
+                 color:#DC7633; 
+                 border-radius: 5px; 
+                 margin: 10px; 
+                 width:80%; 
+                 height:17%;
+                 text-align: center; 
+                 margin-left:40px;
+                }
+.RegForm{ background-color: transparent;
+         height:auto;
+         margin-top: 14%; 
+         margin-left: 39%; 
+         position: absolute; 
+         width: 20%; 
+        }
+.RegForm > form { }
+.RegForm > form > input { height:33px; 
+                         width:300px; 
+                         border-radius:5px; 
+                         font-family:andalus; 
+                         font-size:1.1em; 
+                         text-align: center; 
+                         padding: 3px;
+                         border: 2px solid #ccc;
+                }
+.RegForm > form > textarea { border-radius:5px;
+                            font-family:andalus; 
+                            font-size:1em; 
+                            text-align: center; 
+                            padding: 3px; 
+                            border: 2px solid #ccc; 
+                    }
